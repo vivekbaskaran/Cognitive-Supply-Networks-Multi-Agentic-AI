@@ -1,0 +1,19 @@
+[project]
+name = "cognitive-supply-chain-agents"
+version = "0.1.0"
+description = "A multi-agent AI system for cognitive supply chain networks."
+authors = [
+    { name = "Vivek Baskaran", email = "buvivivek@gmail.com" },
+    { name = "Shathis Kannan Vijayakumar", email = "vshathiskannan@gmail.com" },
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-dotenv",
+    "pydantic",
+    "google-adk",
+    "google-genai",
+    "ag-ui-adk",
+    "litellm>=1.81.14",
+]
